@@ -5,7 +5,7 @@ exports.init = function(app, models) {
     var catalog = require('../controller/Catalog');
     var user = require('../controller/User');
     var geo = require('../controller/Geo');
-    var images = require('../controller/Images');
+    // var images = require('../controller/Images');
     // var category = require('../controller/Category');
  
     /* set models 
@@ -21,9 +21,10 @@ exports.init = function(app, models) {
     user.model      = models.User;
     catalog.model   = models.Catalog;
     geo.model       = models.Geo;
-    images.model    = models.Images;
+    // images.model    = models.Images;
 
-    images.models = geo.models = catalog.models = models;
+    // images.models = 
+    geo.models = catalog.models = models;
     //category.model = models.Category;
  
     /* set controllers 

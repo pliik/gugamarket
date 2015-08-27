@@ -12,7 +12,7 @@ module.exports = function(app,baseurl,basecontact) {
 
 	var catalogResources = require("./route_catalog");
 	var geoResources = require("./route_geo");
-	var imagesResources = require("./route_images");
+	// var imagesResources = require("./route_images");
 	var userResources = require("./route_user");
 
 /*

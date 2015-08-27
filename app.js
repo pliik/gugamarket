@@ -48,7 +48,8 @@ var app = express();
 var MongoStore = require('passwordless-mongostore-openshift');
 
 // console.log(process.env.NODE_ENV);
-if ( 'development' != process.env.NODE_ENV ) {
+// if ( 'development' != process.env.NODE_ENV ) {
+if (process.env.OPENSHIFT_NODEJS_IP) {
 
     basecontact = Config.prd.basecontact;
     baseurl = Config.prd.baseurl;
@@ -69,6 +70,8 @@ if ( 'development' != process.env.NODE_ENV ) {
         //var pathToMongoDb = 'mongodb://localhost/passwordless-simple-mail';
 
 } else {
+
+
     //var MongoStore = require('passwordless-mongostore-openshift');
     basecontact = Config.prd.basecontact;
     baseurl = Config.dev.baseurl;
