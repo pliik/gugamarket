@@ -1,0 +1,32 @@
+extends layout
+
+block content
+	link(rel='stylesheet', href='/stylesheets/style.css')
+
+
+	div.lettering #{title}
+		div.inner #{desc}
+		div.github
+			a(href="https://github.com/pliik/gugamarket" title="Github")
+				img(src="/images/gh.svg", height=60, width=60)
+
+	div.adds
+		| <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		|	<ins class="adsbygoogle"
+		|	     style="display:inline-block;width:320px;height:100px"
+		|	     data-ad-client="ca-pub-4154493573503535"
+		|	     data-ad-slot="5647609201"></ins>
+		|	<script>
+		|	(adsbygoogle = window.adsbygoogle || []).push({});
+		|	</script>
+
+	div.apiframe
+		iframe.apiframeinner(scrolling='yes', frameborder='no', src= '/docs/ui-api')
+
+
+
+
+	script(src="//code.jquery.com/jquery-1.11.0.min.js")
+	script(src="/js/background-check.min.js")
+	script(src="/js/jquery.adaptive-backgrounds.min.js")
+	script(src="/js/main.js")

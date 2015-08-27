@@ -1,0 +1,8 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='icon', type='image/png', href='/images/favicon.ico')
+  body(onload="changeBackground();")
+    block content
+    div#loading-mask(data-adaptive-background='1', data-ab-css-background='1')
