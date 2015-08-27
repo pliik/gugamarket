@@ -1,6 +1,9 @@
 # gugamarket
 Open source REST API. NodeJS / Swagger / Express
 
+install via npm:
+npm install gugamarket
+
 Start project:
 
 node app.js
