@@ -2,6 +2,8 @@
 
 Gugamarket is a fullstack REST API framework.
 
+Prod Demo: http://www.gugamarket.com/
+
 Available end points documentation: http://www.gugamarket.com/docs/ui-api/
 
 Built with:
@@ -39,3 +41,7 @@ Pliik server listening on port 127.0.0.1:3000 - Powered by EXPRESS 4!
 # Demo
 
 http://www.gugamarket.com
+
+# RHC ready
+
+Out of the box Red Hat Clound - Openshift - compatible. 
