@@ -32,6 +32,12 @@ npm install gugamarket
 
 # Start project (Linux):
 
+git clone https://github.com/pliik/gugamarket.git
+
+cd gugamarket
+
+npm install
+
 npm install -g supervisor
 
 supervisor app.js
