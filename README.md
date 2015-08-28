@@ -1,10 +1,12 @@
-# gugamarket
+# gugamarket REST API framework
 
-Open source REST API. 
+Gugamarket is a fullstack REST API framework.
+
+Available end points documentation: http://www.gugamarket.com/docs/ui-api/
 
 Built with:
 
-  NodeJS
+  Node
   
   Swagger (REST Api documentation)
   
@@ -20,7 +22,7 @@ Built with:
   
   Mocha (Unit Testing)
 
-# Install via npm:
+# Install via Npm:
 
 https://www.npmjs.com/package/gugamarket
 
