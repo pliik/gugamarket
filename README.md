@@ -1,4 +1,4 @@
-# gugamarket REST API framework
+# Gugamarket REST API framework
 
 Gugamarket is a fullstack REST API framework.
 
@@ -50,4 +50,4 @@ http://www.gugamarket.com
 
 # RHC ready
 
-Out of the box Red Hat Clound - Openshift - compatible. 
+Out of the box Red Hat Cloud - Openshift - compatible. 
