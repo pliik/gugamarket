@@ -1,0 +1,8 @@
+title: Gugamarket
+description: REST API framework
+google_analytics: UA-66877845-1
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
