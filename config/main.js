@@ -17,4 +17,5 @@ var Config = {
   yourEmail     : process.env.MAIL_EMAIL || 'myaccount@gmailxyz.com',
   yourSSL       : process.env.MAIL_SSL   || false
 }
+console.log(Config);
 module.exports = Config;
