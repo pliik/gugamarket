@@ -1,20 +1,20 @@
 var Config = {
   market        : 'Gugamarket',
-  domain        : 'gugamarket.com',
-  url           : process.env.BASE_URL || "http://127.0.0.1:8080",
+  domain        : process.env.BASE_DOMAIN  || 'localhost',
+  url           : process.env.BASE_URL     || "http://127.0.0.1:8080",
   desc          : 'NodeJS REST API',
-  crypto        : process.env.CRYPTO || 'TheBiGsecret',
-  basecontact   : "ceo@gugamarket.com",
-  baseurl       : process.env.BASE_URL || "http://127.0.0.1:8080",
-  ip            : process.env.IP || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0',
-  port          : process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
+  crypto        : process.env.CRYPTO       || 'TheBiGsecret',
+  basecontact   : process.env.BASE_CONTACT || "myaccount@gmailxyz.com",
+  baseurl       : process.env.BASE_URL     || "http://127.0.0.1:8080",
+  ip            : process.env.IP           || process.env.OPENSHIFT_NODEJS_IP   || '0.0.0.0',
+  port          : process.env.PORT         || process.env.OPENSHIFT_NODEJS_PORT || 8080,
   dbPath        : process.env.MONGO_URL,
   
   // To use gmail please activate less secure apps - https://www.google.com/settings/security/lesssecureapps
   // Gmail less secure require yourSSL set to true.
   yourPwd       : process.env.MAIL_PASS  || 'mypassword',
-  yourSmtp      : process.env.MAIL_HOST  || 'smtp.gmail.com',
-  yourEmail     : process.env.MAIL_EMAIL || 'myaccount@gmail.com',
-  yourSSL       : false
+  yourSmtp      : process.env.MAIL_HOST  || 'smtp.gmailxyz.com',
+  yourEmail     : process.env.MAIL_EMAIL || 'myaccount@gmailxyz.com',
+  yourSSL       : process.env.MAIL_SSL   || false
 }
 module.exports = Config;
