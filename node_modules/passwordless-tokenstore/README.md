@@ -1,0 +1,25 @@
+# Passwordless-TokenStore
+
+This module provides an abstract class to allow developers to create new TokenStores for [Passwordless](https://github.com/florianheinemann/passwordless). This is of no further interest for you if you simply like to reuse one of the existing TokenStores.
+
+## Develop a new TokenStore
+
+```javascript
+// to be finalized
+
+```
+
+## Options
+
+To be finalized
+
+## Tests
+
+To be finalized
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
+
+## Author
+Florian Heinemann [@thesumofall](http://twitter.com/thesumofall/)

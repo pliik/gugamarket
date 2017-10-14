@@ -1,0 +1,41 @@
+extends layout
+
+block content
+	link(rel='stylesheet', href='/stylesheets/style.css')
+
+
+	div.lettering #{title}
+		div.inner #{desc}
+		div.github
+			a(href="https://github.com/pliik/gugamarket" title="Github")
+				img(src="/images/gh.svg", height=60, width=60)
+
+	div.adds
+				| <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				| <!-- 320x100 -->
+				| <ins class="adsbygoogle"
+				|      style="z-index:999999;left: 300px;position: absolute;top: 15px;display:inline-block;width:320px;height:100px"
+				|      data-ad-client="ca-pub-7368787833850291"
+				|      data-ad-slot="2836477960"></ins>
+				| <script>
+				| (adsbygoogle = window.adsbygoogle || []).push({});
+				| </script>
+				| <script>
+				| (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				| (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				| m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				| })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				| ga('create', 'UA-67921181-2', 'auto');
+				| ga('send', 'pageview');
+				| </script>
+
+	div.apiframe
+		iframe.apiframeinner(scrolling='yes', frameborder='no', src= '/docs/ui-api')
+
+
+
+
+	script(src="//code.jquery.com/jquery-1.11.0.min.js")
+	script(src="/js/background-check.min.js")
+	script(src="/js/jquery.adaptive-backgrounds.min.js")
+	script(src="/js/main.js")

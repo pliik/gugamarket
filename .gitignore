@@ -1,0 +1,6 @@
+client-src/dashboard/build
+.idea/
+/controller/nbproject/private/
+/rest/nbproject/private/
+/model/nbproject/private/
+nginx/

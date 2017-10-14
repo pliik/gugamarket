@@ -1,0 +1,136 @@
+* {
+
+    margin: 0px;
+    font-family: helvetica,arial,verdana,sans-serif
+}
+
+body {
+  overflow: hidden;
+}
+
+.adds {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.apiframeinner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0px;
+  z-index: 9;
+}
+
+.apiframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0px;
+  z-index: 9;
+}
+
+.github {
+  position: absolute;
+  top: 26px;
+  right: 60px;
+  z-index: 99999999;
+  background: #FFF none repeat scroll 0% 0%;
+  margin: 0px;
+  padding: 0px;
+  height: 60px;
+  width: 60px;
+}
+
+.lettering {
+    width:100%;
+ /*-ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);   */
+    z-index: 999999;
+    font-size: 3em;
+    padding: 0.2em 0.4em 0.2em 0.4em;
+    position: absolute;
+    /*left: 1em;*/
+    margin:0em;
+    opacity: 1;
+    /*left: 0.5em;*/
+    border-radius: 0em;
+    z-index: 999999;
+    border:0px solid #000;
+    opacity: 0.75;
+}
+.lettering .inner {
+    padding-left: 0.2em;
+   font-size: 0.5em !important;
+}
+
+.lettering.background--dark {
+    color: #FFF;
+    background: #000;
+    border:0px solid #fff;
+}
+
+
+.lettering.background--light {
+    color: #000;
+    background: #FFF;
+    border:0px solid #000;
+}
+
+
+
+#loading-mask {
+    z-index:-1;
+    position:           absolute;
+    top:                0;
+    left:               0;
+    width:              100%;
+    height:             100%;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    /* background-image: url('/images/bgpics/animal-dog-funny-1173.jpg');   */
+    background-size: cover;
+
+}
+
+#loading-mask:before {
+/* .card-body:before {  */
+  background: #000;
+opacity: 1;
+float: left;
+font-size: 10em;
+top: 0px;
+position: absolute;
+color: #0e5d30;
+/* text-shadow: 2px 2px 2px#333; */
+/* right: 0px; */
+/* z-index: 999; */
+background: #fff;
+height: 180px;
+line-height: 160px;
+padding: 0px 20px 0px 20px;
+left: 0px;
+}
+
+#loading-mask:before {
+font-size:30px;
+/* height: 80px; */
+/* line-height: 80px; */
+color: #ffffff;
+content: "";
+background: transparent;
+/* border-bottom: 5px solid #FFFFFF; */
+position: absolute;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+text-align: center;
+/* vertical-align: middle; */
+/* line-height: 100%; */
+/* height: 100%; */
+margin-top: auto;
+margin-bottom: auto;
+float: left;
+}

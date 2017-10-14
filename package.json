@@ -1,0 +1,74 @@
+{
+  "name": "Gugamarket.com",
+  "version": "2.0.0",
+  "description": "building",
+  "keywords": [
+    "guga",
+    "market",
+    "application",
+    "gugamarket"
+  ],
+  "author": {
+    "name": "pliik",
+    "email": "ceo@gugamarket.com",
+    "url": "https://github.com/pliik"
+  },
+  "homepage": "https://www.gugamarket.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pliik/gugamarket.git"
+  },
+  "engines": {
+    "node": ">= 0.10.20",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {   
+    "mongodb":"1.4.7",
+    "passwordless": "~0.1.4",
+    "passwordless-mongostore-openshift": "0.0.3",
+    "passwordless-tokenstore":"0.0.8",
+    "node-uuid":"1.4.3",
+    "mongoose":"*"
+  },
+  "devDependencies": {},
+  "private": "false",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "make test"
+  },
+  "bundleDependencies": [
+    "url",
+    "supervisor",
+    "cors",
+    "oauth",
+    "express-error-handler",
+    "body-parser",
+    "method-override",
+    "cookie-parser",
+    "express-session",
+    "emailjs",
+    "passwordless", 
+    "express",
+    "connect",
+    "jade",
+    "async",
+    "serve-favicon",
+    "date-utils",
+    "async",
+    "express",
+    "jade",
+    "mocha",
+    "mongoose-nested-set",
+    "request",
+    "supertest",
+    "supervisor",
+    "swagger-node-express",
+    "passport",
+    "passport-local",
+    "passport-facebook",
+    "passport-twitter",
+    "passport-google-oauth",
+    "morgan"
+  ]
+}
