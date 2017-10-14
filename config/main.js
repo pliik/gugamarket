@@ -1,8 +1,8 @@
 var Config = {
   market        : 'Gugamarket',
+  desc          : 'NodeJS REST API',
   domain        : process.env.BASE_DOMAIN  || 'localhost',
   url           : process.env.BASE_URL     || "http://127.0.0.1:8080",
-  desc          : 'NodeJS REST API',
   crypto        : process.env.CRYPTO       || 'TheBiGsecret',
   basecontact   : process.env.BASE_CONTACT || "myaccount@gmailxyz.com",
   baseurl       : process.env.BASE_URL     || "http://127.0.0.1:8080",
