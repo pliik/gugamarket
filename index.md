@@ -2,6 +2,9 @@
 
 Gugamarket is a fullstack NodeJS REST API framework.
 
+![Gugamarket](https://raw.githubusercontent.com/pliik/gugamarket/openshiftv3/gugamarket.png)
+
+
 Prod Demo: http://www.gugamarket.com/
 
 Available end points documentation: http://www.gugamarket.com/docs/ui-api/
