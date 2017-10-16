@@ -1,6 +1,6 @@
-# Gugamarket REST API framework
+# Gugamarket NodeJS REST API framework
 
-Gugamarket is a fullstack REST API framework.
+Gugamarket is a fullstack NodeJS REST API framework.
 
 Prod Demo: http://www.gugamarket.com/
 
