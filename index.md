@@ -39,6 +39,6 @@ Pliik server listening on port 127.0.0.1:3000 - Powered by EXPRESS 4!
 ```
 
 
-# RHC ready
+# Cloud deploy
 
-Out of the box Red Hat Cloud - Openshift V3 - compatible. 
+Out of the box Openshift V3 compatible deployments
