@@ -4,8 +4,10 @@
 
 ![Gugamarket](https://raw.githubusercontent.com/pliik/gugamarket/openshiftv3/gugamarket.png)
 
-Prod Demo: http://www.gugamarket.com/
-Available end points documentation: http://www.gugamarket.com/docs/ui-api/
+# Demo & documentation
+
+* Demo: http://www.gugamarket.com/
+* Documentation: http://www.gugamarket.com/docs/ui-api/
 
 ### Built with:
 
@@ -32,16 +34,11 @@ npm install gugamarket
 git clone https://github.com/pliik/gugamarket.git
 cd gugamarket
 npm install
-npm install -g supervisor
-supervisor app.js
+node app.js
 Pliik server listening on port 127.0.0.1:3000 - Powered by EXPRESS 4!
 ```
 
-# Demo
-
-http://www.gugamarket.com
 
 # RHC ready
 
 Out of the box Red Hat Cloud - Openshift V3 - compatible. 
-
